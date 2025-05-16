@@ -1,0 +1,54 @@
+body {
+  background-image: url('https://i.pinimg.com/736x/ad/14/4b/ad144b064b98cd7406eae8c32aa94a05.jpg');
+  background-size: cover;         /* cobre toda a tela */
+  background-position: center;    /* centraliza a imagem */
+  background-repeat: no-repeat;
+  background-color: #0033A0;      /* azul oficial da La U */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
+  text-align: center;
+}
+
+h1, #countdown, .btn {
+  text-shadow: 2px 2px 6px #000;
+}
+
+#countdown {
+  font-size: 1.5em;
+  margin: 20px 0;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#countdown span {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-block;
+  min-width: 80px;
+  font-size: 2em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0033A0; /* azul La U */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+.btn:hover {
+  background-color: #ffd700;
+  transform: scale(1.05);
+}
